@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+}
+
+
+.container_large_orange {
+  background-color: #E8CE9D;
+  height: 600px;
 }
 
 .App-logo {
