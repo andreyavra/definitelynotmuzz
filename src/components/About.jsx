@@ -11,7 +11,7 @@ class About extends React.Component {
       name: '',
     };
 
-  this.increaseNumber = this.increaseNumber.bind(this);
+    this.increaseNumber = this.increaseNumber.bind(this);
   }
 
   increaseNumber() {

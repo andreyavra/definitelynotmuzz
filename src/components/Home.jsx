@@ -25,15 +25,18 @@ class Home extends React.Component {
 	    <h1>Welcome to my website</h1>
 
 	    <button onClick={this.expand1}>Click me!</button>
-	    <div>The count is {this.state.count}</div>
+
+	    <div className="container_large_orange">
+	      <div className="container_text">Top 10 Buzzfeed Articles</div>
+	    </div>
+
+
 	    {
-	      (this.state.expanded1 === 1) && (
+	      (this.state.expanded1 === 1) && 
+	      (
 	          <div>Expanded!</div>
 	      )
 	    }
-	    <div class="container_large_orange">
-	      I hope this works...
-	    </div>
 	  </div>
     );
 
