@@ -18,6 +18,18 @@
   margin-left: 150px;
 }
 
+.text_button {
+  background:none;
+  color:inherit;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  /*border is optional*/
+  /*border-bottom:1px solid #444; */
+  cursor: pointer;
+}
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -38,6 +50,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

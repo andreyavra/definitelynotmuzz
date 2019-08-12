@@ -6,15 +6,15 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      expanded_expand_me: false,
+      subhead: false,
     };
 
-    this.expanded_me = this.expanded_me.bind(this);
+    this.expand_into_subheader = this.expand_into_subheader.bind(this);
   }
 
-  expanded_me() {
+  expand_into_subheader() {
     this.setState({
-      expanded_me: 1-this.expanded_me,
+      subhead: !this.state.subhead,
     });
   }
 
@@ -22,14 +22,10 @@ class Header extends React.Component {
     return (
       <div>
         MUZZWEED | <Link to="/">Home</Link> | <Link to="/about">About</Link> |&nbsp;
-        <Link to="/Bucc">Bucc</Link> | <span class="expanding_header" onClick={this.expanded_me}>Expand Me!</span>
-      </div>
+        <Link to="/Bucc">Bucc</Link> | <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
 
-      // {
-      //   (this.state.expanded_expand_me === true) && (
-      //     <SubHeader />
-      //   )
-      // }
+      {this.state.subhead && ( <SubHeader/> )}
+      </div>
 
     );
   }
