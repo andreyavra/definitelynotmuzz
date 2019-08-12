@@ -10,21 +10,15 @@ class SubHeader extends React.Component {
       name: '',
     };
 
-    this.increaseNumber = this.increaseNumber.bind(this);
+    // this.increaseNumber = this.increaseNumber.bind(this);
   }
 
-  increaseNumber() {
-    this.setState({
-      count: this.state.count + 1,
-    });
-  }
 
   render() {
-    console.log('Render!');
+    console.log('Subheader rendered!');
     return (
       <div>
-        <h1>This is a banner that expands when you hover click a button</h1>
-        <button onClick={this.increaseNumber}>Click me!</button>
+        <div class="subhead_expandme">Oh my god it expands</div>
       </div>
     );
   }
