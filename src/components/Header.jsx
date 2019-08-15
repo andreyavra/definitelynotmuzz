@@ -22,7 +22,7 @@ class Header extends React.Component {
     return (
       <div>
         MUZZWEED | <Link to="/">Home</Link> | <Link to="/about">About</Link> |&nbsp;
-        <Link to="/Bucc">Bucc</Link> | <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
+        <Link to="/Bucc">Bucc</Link> | <span className="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
 
       {this.state.subhead && ( <SubHeader/> )}
       </div>

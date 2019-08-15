@@ -18,7 +18,7 @@ class SubHeader extends React.Component {
     console.log('Subheader rendered!');
     return (
       <div>
-        <div class="subhead_expandme">Oh my god it expands</div>
+        <div className="subhead_expandme">Oh my god it expands</div>
       </div>
     );
   }

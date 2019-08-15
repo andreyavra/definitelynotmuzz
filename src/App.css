@@ -59,6 +59,13 @@
   color: #61dafb;
 }
 
+.buccGod {
+  width: 500px;
+  padding:5px; 
+  margin-top: 20px; 
+  margin-left: 150px;
+}
+
 
 @keyframes App-logo-spin {
   from {
