@@ -13,6 +13,9 @@ class Bucc extends React.Component {
     return (
       <div>
         <h1>This is the bucctastic page</h1>
+        {/* <a href="https://www.cse.unsw.edu.au/~richardb/" target="_blank">
+          <img src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad" width = 500px style={{padding:5px; margin-top: 20px; margin-left: 150px}}>
+        </a> */}
         
       </div>
     );
@@ -24,5 +27,4 @@ class Bucc extends React.Component {
 
 export default Bucc;
 
-// This won't compile when in render :( 
-// <a href="https://www.cse.unsw.edu.au/~richardb/" target="_blank"><img src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad" width = 50vw style = "float:left; padding:5px; margin-top: 20px; margin-right: 10px"></a>
+

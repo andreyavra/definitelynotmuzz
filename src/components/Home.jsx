@@ -22,22 +22,22 @@ class Home extends React.Component {
   render() {
     return (
     <div>
-	    <h1>Welcome to my website</h1>
-
-	    <button onClick={this.expand1}>Click me!</button>
+	    
 
 	    <div className="container_large_orange">
-	      <div className="container_text">Top 10 Buzzfeed Articles</div>
+	      <div className="container_text"ßß>Top 10 Buzzfeed Articles</div>
+		  <button onClick={this.expand1}>Click me!</button>
+		  {(this.state.expanded1 === 1) && 
+	      (
+	          <div>Expanded!</div>
+			  // I DONT KNOW HOW TO ADD MARGINS TO THESE ELEMENTS :(
+	      )
+	      }
 	    </div>
 
 
-	    {
-	      (this.state.expanded1 === 1) && 
-	      (
-	          <div>Expanded!</div>
-	      )
-	    }
-	  </div>
+	    
+	</div>
     );
 
   }

@@ -16,6 +16,7 @@
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
   font-size: 24px;
   margin-left: 150px;
+  /* margin-top: 150px; */
 }
 
 .text_button {
@@ -33,6 +34,8 @@
 .subhead_expandme {
   margin-left: 15vw;
 }
+
+
 
 
 .App-logo {
