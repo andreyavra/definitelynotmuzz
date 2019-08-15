@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./Bucc.css";
 class Bucc extends React.Component {
   constructor(props) {
     super(props);
@@ -12,9 +12,9 @@ class Bucc extends React.Component {
   render() {
     return (
       <div>
-        <h1>This is the bucctastic page</h1>
+        <h1 className = "buccText">This is the bucctastic page</h1>
         <a href="https://www.cse.unsw.edu.au/~richardb/" target="_blank">
-          <img className = "img" src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad" />
+          <img className = "img" src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad"/>
         </a>
         
       </div>

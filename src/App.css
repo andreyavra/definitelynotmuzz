@@ -64,8 +64,16 @@
 
 .header {
   padding: 10px;
+  font-size: 30px;
+  color: green;
+
 }
 
+.buccText:hover{
+  color: green;
+
+
+}
 
 
 

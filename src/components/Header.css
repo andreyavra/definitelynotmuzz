@@ -1,0 +1,31 @@
+.header {
+  padding: 10px;
+  font-size: 30px;
+  color: green;
+
+}
+
+.navi {
+	
+	font-size: 16px;
+	background-color: grey;
+	display: flex;
+
+}
+.navi a{
+	text-decoration: none;
+	color: white;
+}
+
+.navi .navLink:hover a{
+	text-decoration: underline;
+}
+
+.navLink{
+	padding: 17px;
+}
+
+.navLink:hover {
+	background-color: #ffffff33;
+}
+

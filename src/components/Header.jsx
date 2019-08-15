@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SubHeader from './SubHeader';
+import './Header.css'
 
 class Header extends React.Component {
   constructor(props) {
@@ -21,11 +22,29 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        MUZZWEED | <Link to="/">Home</Link> | <Link to="/about">About</Link> |&nbsp;
-        <Link to="/Bucc">Bucc</Link> | <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
+      <div className = "header">
+        MUZZWEED <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
 
       {this.state.subhead && ( <SubHeader/> )}
+
       </div>
+
+      <div className = "navi">
+
+      <div className = "navLink">
+       <Link to="/">Home</Link> 
+      </div>
+
+      <div className = "navLink">
+       <Link to="/about">About</Link> 
+       </div>
+       <div className = "navLink">
+       <Link to="/Bucc">Bucc</Link> 
+       </div>
+
+      </div>
+      </div>
+
 
     );
   }
