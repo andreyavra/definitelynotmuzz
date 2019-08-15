@@ -14,7 +14,7 @@ class Bucc extends React.Component {
       <div>
         <h1>This is the bucctastic page</h1>
         <a href="https://www.cse.unsw.edu.au/~richardb/" target="_blank">
-          <img src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad" width = 500px style={{padding:5px; margin-top: 20px; margin-left: 150px}}>
+          <img className = "img" src = "https://i.imgur.com/LtQMmKq.png" alt = "Attractive Chad" />
         </a>
         
       </div>

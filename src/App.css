@@ -6,7 +6,6 @@
 
 }
 
-
 .container_large_orange {
   background-color: #E8CE9D;
   height: 600px;
@@ -35,7 +34,11 @@
   margin-left: 15vw;
 }
 
-
+.img {
+  padding: 5px; 
+  margin-top: 20px; 
+  margin-left: 150px;
+}
 
 
 .App-logo {
@@ -58,6 +61,14 @@
 .App-link {
   color: #61dafb;
 }
+
+.header {
+  padding: 10px;
+}
+
+
+
+
 
 
 @keyframes App-logo-spin {
