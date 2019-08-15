@@ -1,18 +1,18 @@
-.img {
+.buccGod {
   padding: 5px; 
   margin-top: 20px; 
   margin-left: 150px;
 }
-.buccText{
+.buccText {
 	transition: all 0.3s ease;
 	user-select: none;
 }
-.buccText:hover{
+.buccText:hover { 
   color: green;
 
 }
 
-.buccText:active{
+.buccText:active {
 	color: blue;
 	transform: translateX(10px);
 }
