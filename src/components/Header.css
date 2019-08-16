@@ -7,14 +7,14 @@
 
 .navi {
 	
-	font-size: 16px;
-	background-color: grey;
+	font-size: 14px;
+	background-color: white;
 	display: flex;
 
 }
 .navi a{
 	text-decoration: none;
-	color: white;
+	color: green;
 }
 
 .navi .navLink:hover a{
@@ -29,3 +29,8 @@
 	background-color: #ffffff33;
 }
 
+.banner {
+	width: 100%;
+	background-color: green;
+	height: 10px;
+}
