@@ -13,7 +13,7 @@ class Bucc extends React.Component {
     return (
       <div>
 
-        <h1>This is the bucccccctastic page</h1>
+        <h1 className = "buccText">This is the bucccccctastic page</h1>
         <a href="https://www.cse.unsw.edu.au/~richardb/" target="_blank">
 
           <img src = "https://i.imgur.com/LtQMmKq.png" className="buccGod" alt = "Attractive Chad" />

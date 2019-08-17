@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './Home.css'
 
 class Home extends React.Component {
 
@@ -24,13 +26,19 @@ class Home extends React.Component {
     <div>
 	    
 
-	    <div className="container_large_orange">
-	      <div className="container_text"ßß>Top 10 Buzzfeed Articles</div>
+	    <div className="container_large_white">
+
+      <img src = "https://imgur.com/a/8dUepNR" className = "bigimgcont" alt = "hackermans" />
+
+	      <div className="container_text"ßß>
+        Top 10 Buzzfeed Articles
+        </div>
 		  <button onClick={this.expand1}>Click me!</button>
 		  {(this.state.expanded1 === 1) && 
 	      (
 	          <div>Expanded!</div>
-			  // I DONT KNOW HOW TO ADD MARGINS TO THESE ELEMENTS :(
+			  // I DONT KNOW HOW TO ADD MARGINS TO THESE ELEMENTS :( it ok
+
 	      )
 	      }
 	    </div>
@@ -42,5 +50,6 @@ class Home extends React.Component {
 
   }
 }
+
 
 export default Home;
