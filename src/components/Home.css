@@ -11,10 +11,23 @@
   /* margin-top: 150px; */
 }
 
-.bigimgcont{
-	padding-left: 50px; 
-	padding-top: 20px;
-	height: 200px;
+.mainstorycont{
+	padding-left: 30px; 
+	padding-top: 30px;
+	height: 400px;
+	width: 650px;
 	
 }
 
+.sidestory1{
+	/*padding-left: 840px;*/
+	height: 200px;
+	width: 300px;
+	float: right;
+	padding-right: 30px;
+
+}
+
+.sidestory2{
+
+}
