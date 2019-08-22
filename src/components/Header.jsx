@@ -23,7 +23,7 @@ class Header extends React.Component {
     return (
       <div>
       <div className = "header">
-        MUZZWEED <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
+        NOINO <span class="text_button" onClick={this.expand_into_subheader}>Expand Me!</span>
 
       {this.state.subhead && ( <SubHeader/> )}
 

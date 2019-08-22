@@ -1,12 +1,15 @@
 .header {
-  padding: 10px;
+  padding-left: 50px;
+  padding-top: 25px;
   font-size: 30px;
-  color: green;
+  color: seagreen;
+  font-family: "Roboto";
+  font-weight: 700;
 
 }
 
 .navi {
-	
+	padding-left: 35px;
 	font-size: 14px;
 	background-color: white;
 	display: flex;
@@ -34,6 +37,6 @@
 
 .banner {
 	width: 100%;
-	background-color: green;
-	height: 20px;
+	background-color: seagreen;
+	height: 40px;
 }

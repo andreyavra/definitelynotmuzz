@@ -28,7 +28,7 @@ class Home extends React.Component {
 
 	    <div className="container_large_white">
 
-      <img src = "https://imgur.com/a/8dUepNR" className = "bigimgcont" alt = "hackermans" />
+      <img src = "https://i.imgur.com/Cgmsteh.jpg" className = "bigimgcont" alt = "hackermans" />
 
 	      <div className="container_text"ßß>
         Top 10 Buzzfeed Articles
