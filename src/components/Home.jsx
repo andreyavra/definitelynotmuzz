@@ -28,8 +28,10 @@ class Home extends React.Component {
 
 	    <div className="container_large_white">
       <div>
-      <img src = "https://i.imgur.com/Cgmsteh.jpg" className = "mainstorycont" alt = "hackermans" />
-
+      <div className = "msbox">
+    
+      <div className = "bottom-left"> Facebook Informs Data Leak Victims Whether They Need To Burn Down House, Cut Off Fingerprints, Start Anew</div>
+      </div>
       <img src = "https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=730&crop=1.jpg" className = "sidestory1" alt = "codecode" />
       </div>
 	      <div className="container_text"ßß>
